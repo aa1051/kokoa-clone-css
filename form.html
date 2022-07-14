@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>배틀그라운드</title>
+    <link
+      rel="shortcut icon"
+      href="https://t1.kakaocdn.net/gamepub/pub/battlegrounds/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>개 인 정 보</h1>
+    </header>
+    <form>
+      <main>
+        <label for="Name">이 름 : </label>
+        <input id="Name" required placeholder="Name" type="text" size="10" />
+      </main>
+
+      <main>
+        <label for="sex">성 별 : </label>
+        <input id="sex" required type="radio" name="gender" checked /><label
+          for="sex"
+          >남</label
+        >
+        <input id="sexy" type="radio" name="gender" /><label for="sexy"
+          >여</label
+        >
+      </main>
+
+      <main>
+        <label for="age">나 이 : </label>
+        <input id="age" required placeholder="Age" type="text" size="10" />
+      </main>
+
+      <main>
+        <label for="hobby">취 미 : </label>
+        <input id="hobby" required placeholder="Hobby" type="text" size="10" />
+      </main>
+
+      <main>
+        <label for="password">암 호 : </label>
+        <input
+          id="password"
+          required
+          placeholder="Password"
+          type="password"
+          size="10"
+          minlength="10"
+        />
+      </main>
+
+      <main>
+        <label for="email">Email : </label>
+        <input id="email" placeholder="Email" type="email" size="10px" />@
+        <select name="lest" id="em">
+          <option value="naver">naver.com</option>
+          <option value="nate">nate.net</option>
+          <option value="google">goole</option>
+        </select>
+      </main>
+
+      <main>
+        <input type="submit" value="회원가입" /> <input type="reset" />
+      </main>
+      <footer>&copy; 2020 N.C</footer>
+    </form>
+  </body>
+</html>

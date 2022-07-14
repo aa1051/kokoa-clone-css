@@ -1,0 +1,29 @@
+body {
+  background-color: tomato;
+  height: 100vh;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 450px;
+  height: 450px;
+  background-color: wheat;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+div {
+  width: 80px;
+  height: 80px;
+  background-color: teal;
+}
+.box {
+  border: 5px solid white;
+}
+.box2 {
+  border: 5px dashed white;
+  width: 350px;
+}

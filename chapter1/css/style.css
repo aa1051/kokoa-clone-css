@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "status.css";
+@import "variavles.css";
+@import "login.css";
+@import "nav-bar.css";
+@import "screen-head.css";
+body {
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
